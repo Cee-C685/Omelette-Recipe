@@ -6,23 +6,26 @@
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   background-color: #f3e6d8;
   font-size: 16px;
   font-weight: 400;
   font-family: "young serif";
 }
-
-main {
-  max-width: 500px;
-  padding: 20px;
-  background-color: #ffffff;
+.container {
+  width: 85%;
   margin: 0 auto;
 }
-
-img {
-  max-width: 500px;
-  width: 400px;
+main {
+  /* max-width: 400px; */
+  /* padding: 20px; */
+  background-color: #ffffff;
+  margin: 0 auto;
+  /* width: 40%; */
 }
 
 .method {
@@ -33,7 +36,7 @@ img {
 }
 
 .prepare {
-  color:  #7b284f;
+  color: #7b284f;
 }
 
 .gift {
@@ -49,8 +52,8 @@ img {
 
 .rr {
   padding-top: 20px;
-    border-top: 2px solid #e4ded8;
-    color: #7b284f;
+  border-top: 2px solid #e4ded8;
+  color: #7b284f;
 }
 
 .todo {
