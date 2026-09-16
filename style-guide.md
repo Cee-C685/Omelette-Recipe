@@ -20,7 +20,7 @@ The designs were created to the following widths:
 
 - Brown 800: hsl(14, 45%, 36%)
 
-- Rose 800:
+- Rose 800: hsl(332, 51%, 32%)
 - Rose 50: hsl(330, 100%, 98%)
 
 ## Typography

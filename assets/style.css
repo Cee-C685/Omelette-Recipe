@@ -10,14 +10,28 @@ img {
   max-width: 100%;
 }
 
+/* li {
+  list-style: none;
+} */
+
 body {
+  margin: 0 auto;
   background-color: #f3e6d8;
   font-size: 1em;
-  font-family: "young serif";
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
 }
 .container {
   width: 85%;
   margin: 0 auto;
+}
+
+main {
+  /* max-width: 400px;
+  /* padding: 20px;*/
+  background-color: #ffffff;
+  margin: 0 auto;
+  /*width: 40%;*/
 }
 
 .heading {
@@ -26,7 +40,6 @@ body {
 }
 
 .dish-info {
-  border: 1px solid red;
   margin: 1.4em 0;
 }
 
@@ -35,25 +48,34 @@ body {
   line-height: 30px;
   margin-bottom: 1em;
   font-weight: 400;
+  font-family: "Young Serif";
 }
-main {
-  /* max-width: 400px;
-  /* padding: 20px;*/
-  background-color: #ffffff;
-  margin: 0 auto;
-  /*width: 40%;*/
+
+.about {
+  line-height: 1.5;
 }
-/* 
+
+/* PREPARATION SECTION STYLING */
 .method {
-  background-color: #fff5fa;
+  background-color: hsl(330, 100%, 98%);
   border-radius: 15px;
-  padding-top: 15px;
-  margin-left: 20px;
+  padding: 16px;
+}
+
+.pt-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 2em;
 }
 
 .prepare {
   color: #7b284f;
+  font-size: 1.3em;
+  margin-bottom: 0.7em;
 }
+
+/* 
+
 
 .gift {
   padding-top: 15px;
@@ -116,9 +138,13 @@ main {
 }
 
 /* @media (min-width: 375px) {
-  main {
-    max-width: 1440px;
+  img {
+    max-width: 100%;
     margin: 0 auto;
-    width: 200px;
+    width: 375px;
+    padding-left: 20px;
+  }
+  main {
+
   }
 } */
