@@ -12,22 +12,38 @@ img {
 
 body {
   background-color: #f3e6d8;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 1em;
   font-family: "young serif";
 }
 .container {
   width: 85%;
   margin: 0 auto;
 }
-main {
-  /* max-width: 400px; */
-  /* padding: 20px; */
-  background-color: #ffffff;
-  margin: 0 auto;
-  /* width: 40%; */
+
+.heading {
+  /* border: 1px solid red; */
+  color: hsl(14, 45%, 36%);
 }
 
+.dish-info {
+  border: 1px solid red;
+  margin: 1.4em 0;
+}
+
+.hero-text {
+  font-size: 2em;
+  line-height: 30px;
+  margin-bottom: 1em;
+  font-weight: 400;
+}
+main {
+  /* max-width: 400px;
+  /* padding: 20px;*/
+  background-color: #ffffff;
+  margin: 0 auto;
+  /*width: 40%;*/
+}
+/* 
 .method {
   background-color: #fff5fa;
   border-radius: 15px;
@@ -89,7 +105,7 @@ main {
 .pp {
   padding-bottom: 20px;
   border-bottom: 2px solid #e4ded8;
-}
+} */
 
 .attribution {
   font-size: 0.6875rem;
@@ -98,3 +114,11 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* @media (min-width: 375px) {
+  main {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 200px;
+  }
+} */
