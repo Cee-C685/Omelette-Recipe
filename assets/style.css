@@ -10,9 +10,9 @@ img {
   max-width: 100%;
 }
 
-/* li {
-  list-style: none;
-} */
+li {
+  list-style-position: inside;
+}
 
 body {
   margin: 0 auto;
@@ -37,6 +37,7 @@ main {
 .heading {
   /* border: 1px solid red; */
   color: hsl(14, 45%, 36%);
+  font-family: "young serif";
 }
 
 .dish-info {
@@ -74,9 +75,89 @@ main {
   margin-bottom: 0.7em;
 }
 
+.ingredients {
+  margin-top: 25px;
+  line-height: 1.6em;
+  border-bottom: 2px solid #e4ded8;
+}
+
+.gift {
+  margin-bottom: 18px;
+}
+
+.recipe {
+  margin-bottom: 15px;
+  list-style-position: inside;
+}
+
+.instructions {
+  line-height: 2em;
+}
+
+.rr {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.un {
+  margin-bottom: 15px;
+}
+
+.nutrition {
+  border-top: 2px solid #e4ded8;
+  border-bottom: 2px solid #e4ded8;
+  line-height: 1.5em;
+}
+
+.health {
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.cc {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+.border {
+  gap: 40px;
+}
+tr {
+  border-bottom: 2px solid #e4ded8;
+}
+th {
+  padding-left: 3em;
+  font-weight: 400;
+}
+
+td {
+  color: #7b284f;
+  font-weight: 600;
+}
+
+/* .nutrients {
+  border: 1px solid red;
+} */
+/*.nut {
+  border-bottom: 2px solid #e4ded8;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.nut-name {
+  border: 1px solid red;
+}
+.nut-value {
+  border: 1px solid black;
+}*/
+
 /* 
-
-
 .gift {
   padding-top: 15px;
   color: #7b284f;
@@ -137,14 +218,19 @@ main {
   color: hsl(228, 45%, 44%);
 }
 
-/* @media (min-width: 375px) {
+@media (min-width: 375px) {
   img {
-    max-width: 100%;
-    margin: 0 auto;
-    width: 375px;
-    padding-left: 20px;
+    /* width: 400px; */
+    border-radius: 15px;
   }
   main {
-
+    max-width: 100%;
+    width: 500px;
+    margin: 3em auto;
+    border-radius: 15px;
+    padding: 2em;
   }
-} */
+  .container {
+    width: 100%;
+  }
+}
