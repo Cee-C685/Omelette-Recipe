@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -39,37 +39,41 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
- Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
+Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 ```html
-<table><tbody>
-              <tr class="table-row">
-                <th>Calories</th>
-                <td>277kcal</td>
-              </tr>
-              <tr>
-                <th>Carbs</th>
-                <td>0g</td>
-              </tr>
-              <tr>
-                <th>Protein</th>
-                <td>20g</td>
-              </tr>
-              <tr>
-                <th>Fat</th>
-                <td>22g</td>
-              </tr>
-            </tbody>
-          </table>
+<table>
+  <tbody>
+    <tr class="table-row">
+      <th>Calories</th>
+      <td>277kcal</td>
+    </tr>
+    <tr>
+      <th>Carbs</th>
+      <td>0g</td>
+    </tr>
+    <tr>
+      <th>Protein</th>
+      <td>20g</td>
+    </tr>
+    <tr>
+      <th>Fat</th>
+      <td>22g</td>
+    </tr>
+  </tbody>
+</table>
 ```
+
 ```css
 table {
   border-collapse: collapse;
 }
 ```
+
 ### Continued development
- These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ## Author
 
